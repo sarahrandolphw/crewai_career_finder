@@ -1,3 +1,8 @@
+## Development setup
+0. update .env file
+1. run `python3 -m venv .venv`
+2. run `source .venv/bin/activate`
+
 # CrewaiCareerFinder Crew
 
 Welcome to the CrewaiCareerFinder Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.

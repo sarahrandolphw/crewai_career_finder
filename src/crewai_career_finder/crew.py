@@ -24,6 +24,13 @@ class CrewaiCareerFinder():
 			verbose=True
 		)
 
+	# @agent
+	# def researcher(self) -> Agent:
+	# 	return Agent(
+	# 		config=self.agents_config['travel_specialist'],
+	# 		verbose=True
+	# 	)
+
 	@agent
 	def reporting_analyst(self) -> Agent:
 		return Agent(
@@ -39,6 +46,12 @@ class CrewaiCareerFinder():
 		return Task(
 			config=self.tasks_config['research_task'],
 		)
+
+	# @task
+	# def research_task(self) -> Task:
+	# 	return Task(
+	# 		config=self.tasks_config['location_task'],
+	# 	)
 
 	@task
 	def reporting_task(self) -> Task:
