@@ -1,0 +1,17 @@
+research_task:
+  description: >
+    Conduct a thorough research about careers intersecting the clients' interests in Computer Science, Languages, and Education
+    Make sure you find any interesting and relevant information given
+    the current year is 2024.
+  expected_output: >
+    A list with 10 bullet points of the most relevant jobs
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the context you got and expand each topic into a full section for a report.
+    Make sure the report is concise and contains keywords for the client to do further research.
+  expected_output: >
+    Summary of what kinds of jobs client should look for, and a bulleted list of some examples, as well as which visa is required for each
+    Formatted as markdown without '```'
+  agent: reporting_analyst
